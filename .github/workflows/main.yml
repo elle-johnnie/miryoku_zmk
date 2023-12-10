@@ -55,7 +55,7 @@ jobs:
         kconfig: ${{ fromJSON(inputs.kconfig) }}
         branches: ${{ fromJSON(inputs.branches) }}
     env:
-      MIRYOKU_DEBUG: ${{ secrets.MIRYOKU_DEBUG }}
+      MIRYOKU_DEBUG: ${{ secrets.MIRYOKU_DEBUG_TRUE }}
     steps:
       - name: checkout
         uses: actions/checkout@v3
