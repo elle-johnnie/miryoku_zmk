@@ -17,5 +17,3 @@ jobs:
       layers: '["default"]'
       mapping: '["default"]'
       nav: '["vi"]'
-      branches: '["zmkfirmware/zmk/main caksoylar/zmk/feat/mouse-keys-3.2 petejohanson/zmk/shell/tap-command"]'
-
