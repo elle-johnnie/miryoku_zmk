@@ -12,7 +12,6 @@ jobs:
       shield: '["corne_left nice_view_adapter nice_view", "corne_right nice_view_adapter nice_view"]'
       alphas: '["QWERTY"]'
       clipboard: '["Mac"]'
-      custom_config: '["#define MIRYOKU_TAP_QWERTY\n#define MIRYOKU_KLUDGE_MOUSEKEYSPR\n#define MIRYOKU_KLUDGE_TAPDELAY"]'
       kconfig: '["CONFIG_ZMK_SLEEP=y\nCONFIG_ZMK_DISPLAY=y\nCONFIG_ZMK_COMBO_MAX_COMBOS_PER_KEY=16"]'
       layers: '["default"]'
       mapping: '["default"]'
