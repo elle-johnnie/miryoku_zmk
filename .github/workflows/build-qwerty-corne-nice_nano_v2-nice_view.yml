@@ -16,4 +16,4 @@ jobs:
       kconfig: '["CONFIG_ZMK_SLEEP=y\nCONFIG_ZMK_DISPLAY=y"]'
       layers: '["default"]'
       mapping: '["default"]'
-      nav: '["default"]'
+      nav: '["vi"]'
