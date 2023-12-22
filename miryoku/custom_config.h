@@ -32,6 +32,9 @@
 
 #endif
 
+#define MIRYOKU_KLUDGE_MOUSEKEYSPR
+#define MIRYOKU_KLUDGE_TAPDELAY
+
 #define MIRYOKU_LAYER_MEDIA \
 U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              U_RGB_TOG,         &kp C_BRIGHTNESS_DEC,         U_RGB_HUI,         U_RGB_SAI,         &kp C_BRIGHTNESS_INC,         \
 &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              U_EP_TOG,          &kp C_PREV,        &kp C_VOL_DN,      &kp C_VOL_UP,      &kp C_NEXT,        \
