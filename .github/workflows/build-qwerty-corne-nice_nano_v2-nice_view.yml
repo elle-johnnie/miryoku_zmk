@@ -16,6 +16,6 @@ jobs:
       layers: '["default"]'
       mapping: '["default"]'
       nav: '["vi"]'
-      custom_config: '["#define MIRYOKU_KLUDGE_MOUSEKEYSPR #define MIRYOKU_KLUDGE_TAPDELAY"]'
+      custom_config: '["#define MIRYOKU_KLUDGE_TAPDELAY"]'
       branches: '["zmkfirmware/zmk/main petejohanson/zmk/shell/tap-command"]'
       
