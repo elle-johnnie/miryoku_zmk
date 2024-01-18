@@ -15,7 +15,5 @@ jobs:
       kconfig: '["CONFIG_ZMK_SLEEP=y\nCONFIG_ZMK_DISPLAY=y"]'
       layers: '["default"]'
       mapping: '["default"]'
-      nav: '["vi"]'    
-      custom_config: '["#define MIRYOKU_KLUDGE_MOUSEKEYSPR"]'
-      branches: '["zmkfirmware/zmk/main caksoylar/zmk/feat/mouse-keys-3.2"]'
-      
+      nav: '["default"]'    
+     
