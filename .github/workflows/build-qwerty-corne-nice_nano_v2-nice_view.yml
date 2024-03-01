@@ -1,5 +1,15 @@
 # Copyright 2022 Manna Harbour
+# For switching the Bluetooth device you need Media key. 
+# There are profiles 1 to 4 and to clear the 
+# corresponding profile you press Media + LShift + the corresponding profile key.
+# Enter pairing mode with 2x reset button while left keyboard is on.
+# Pair left and right, by resetting both at the same time.
+# If pairing stops working, clear all bluetooth connections and start over - 
+# this works every time so far.
+# url listed in the branches layer configure a merge between the listed branches
+# if merge conflicts come up, remove the mainline miryoku branch 
 # https://github.com/manna-harbour/miryoku
+
 
 name: 'Build QWERTY corne nice_nano_v2 nice_view'
 on: workflow_dispatch
@@ -9,7 +19,7 @@ jobs:
     secrets: inherit
     with:
       board: '["nice_nano_v2"]'
-      shield: '["corne_left nice_view_adapter nice_view", "corne_right nice_view_adapter nice_view"]'
+      shield: '["corne_left nice_view_adapter nice_view", "corne_right nice_view_adapter nice_view", "settings_reset"]'
       alphas: '["QWERTY"]'
       clipboard: '["Mac"]'
       kconfig: '["CONFIG_ZMK_DISPLAY=y"]'
