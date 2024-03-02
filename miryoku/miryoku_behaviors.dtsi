@@ -19,15 +19,15 @@
       flavor = "tap-preferred";
       bindings = <&mo>, <&kp>;
     };
-    bst: backspace-tap {
-      compatible = "zmk,behavior-hold-tap";
-      label = "BSPC_TAP_SYM_HOLD";
-      #binding-cells = <2>;
-      flavor = "balanced";
-      tapping-term-ms = <220>;
-      quick-tap-ms = <170>;
-      //require-prior-idle-ms = <100>;
-      bindings = <&mo>, <&kp>;
-    };
+    // bst: backspace-tap {
+    //   compatible = "zmk,behavior-hold-tap";
+    //   label = "BSPC_TAP_SYM_HOLD";
+    //   #binding-cells = <2>;
+    //   flavor = "balanced";
+    //   tapping-term-ms = <220>;
+    //   quick-tap-ms = <170>;
+    //   //require-prior-idle-ms = <100>;
+    //   bindings = <&mo>, <&kp>;
+    // };
   };
 };
