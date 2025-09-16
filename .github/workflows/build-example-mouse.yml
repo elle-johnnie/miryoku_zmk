@@ -1,7 +1,7 @@
-# Copyright 2023 Manna Harbour
+# Copyright 2024 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
-name: 'Build Example mousekeyspr'
+name: 'Build Example with mouse support'
 on: workflow_dispatch
 jobs:
   build:
@@ -10,5 +10,4 @@ jobs:
     with:
       board: '["nice_nano"]'
       shield: '["corne_left"]'
-      custom_config: '["#define MIRYOKU_KLUDGE_MOUSEKEYSPR"]'
-      branches: '["zmkfirmware/zmk/main caksoylar/zmk/feat/mouse-keys-3.2"]'
+      kconfig: '["CONFIG_ZMK_POINTING=y"]'
