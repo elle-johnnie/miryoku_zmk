@@ -27,5 +27,3 @@ jobs:
       mapping: '["default"]'
       nav: '["vi"]'
       custom_config: '["#define MIRYOKU_KLUDGE_MOUSEKEYSPR"]'
-      branches: '["caksoylar/zmk/feat/mouse-keys-3.2"]'
-     
