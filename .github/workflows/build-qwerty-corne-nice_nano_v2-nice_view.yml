@@ -26,4 +26,3 @@ jobs:
       layers: '["default"]'
       mapping: '["default"]'
       nav: '["vi"]'
-      custom_config: '["#define MIRYOKU_KLUDGE_MOUSEKEYSPR"]'
